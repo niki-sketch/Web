@@ -1,0 +1,6 @@
+target/
+*.class
+.idea/
+*.iml
+apache-maven-3.9.16/
+apache-tomcat-10.1.59/
