@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='medicine'>
+    <!-- Наследование базового модуля GWT -->
+    <inherits name='com.google.gwt.user.User'/>
+
+    <!-- По умолчанию GWT видит только пакет client.
+         Явно добавляем пакет shared, где лежит класс Medicine -->
+    <source path='client'/>
+    <source path='shared'/>
+
+    <!-- Указание точки входа приложения -->
+    <entry-point class='com.labs.client.MedicineModule'/>
+
+    <!-- Настройка логирования (не обязательна) -->
+    <set-property name="gwt.logging.enabled" value="FALSE"/>
+</module>
